@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: #2DD4BF;
+    color: #262626;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input[type="email"], input[type="password"] {
+    border-radius: 100px;
+    border: 1px solid #0D9488;
+    height: 2rem;
+    text-indent: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    border: 1px solid #262626;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 100px;
+    border: 1px solid #0D9488;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #115E59;
+    border-color: #042F2E;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;   
+    opacity: 0.1;
+}
+
+button.on {
+    opacity: 1;
+}
+button.all-off {
+    all: unset;
+    color: white;
+    background-color: #B91C1C;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ==========example8================ */
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C4A6E;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.card .avatar {
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.card .name {
+    margin-block: 13px;
+    color: #333333;
+}
+
+.card .info {
+    padding: 10px;
+}
+
+.card .favorite {
+    width: 25px;
+    cursor: pointer;
+}
+
+.card .contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 7px;
+}
+
+.card .favorite-button {
+    border: none;
+    background: transparent;
+}
+
+.card .favorite-button:active {
+    transform: none;
+    box-shadow: none;
+} */
+
+
+
+/* //==========example7================
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #70B85D;
+    color: white;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    max-width: 300px;
+    background-color: transparent;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #FFFEF1;
+    color: #2C5E2E;
+}
+
+button:focus {
+    outline: 0;
+}
+
+p {
+    margin-block: 10px;
+    font-size: 2rem;
+} */
+
+
+
+/* //==========example6================ */
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #262626;
+    color: #D9D9D9;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > .title {
+    text-align: center;
+}
+
+main > .value {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+/* 
+//==========example1================ */
+
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > img {
+    width: 100%;
+    border-radius: 10px;
+    transition: filter .1s ease-in-out;
+}
+
+.container > img:hover {
+    filter: brightness(120%);
+}
+
+.container > button {
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 2px solid lightgray;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem;
+} */
