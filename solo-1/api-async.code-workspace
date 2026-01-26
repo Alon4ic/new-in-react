@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../api-async"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "solo-1"
+	}
+}

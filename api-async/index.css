@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "EB Garamond", serif;
+}
+nav {
+    background-color: beige;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+nav h3 {
+    margin: 0;
+}
+#blog-list {
+    padding: 10px;
+}
+form {
+    padding: 90px 10px 0 ;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(231, 234, 220);
+    padding-bottom: 20px;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.2;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: beige;
+    width: 70px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 1px 1px rgba(72, 71, 71, 0.17);
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(215, 215, 192);
+}
+/* My DECISSION */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "EB Garamond", serif;
+    background-color: azure;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #f8e8d5;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;           
+    left: 0;          
+    z-index: 1000; 
+    
+}
+nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+main {
+    margin-top: 60px;
+}
+@media (max-width: 1200px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+} */
