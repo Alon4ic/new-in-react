@@ -70,6 +70,7 @@ main {
 
 ul.ingredients-list {
     margin-bottom: 48px;
+    height: 800px;
 }
 
 ul.ingredients-list > li {

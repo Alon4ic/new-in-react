@@ -1,0 +1,18 @@
+{
+  "name": "scrim-s01qmft",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0n3/s0qq4vmobt/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
