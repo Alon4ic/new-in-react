@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 29px 20px 30px;
+  background-color: #0B2434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Karla, sans-serif;
+}
+.root {
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+  max-height: 379px;
+}
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -3%;
+  color: #2B283A;
+}
+.instruction {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 43px 30px;
+}
+.block {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  height: 320px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 18px;
+}
+button {
+    font-family: Karla, sans-serif;
+    cursor: pointer;
+}
+
+.dice-container button {
+    height: 35.8px;
+    width:35.8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.roll-btn {
+  margin-top: 24.8px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 6px 21px;
+  color: #ffffff;
+  background-color: #5035FF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
