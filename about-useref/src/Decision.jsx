@@ -1,0 +1,18 @@
+import React from "react";
+
+export default function Decision({ children }) {
+  const [goingOut, setGoingOut] = React.useState(false);
+  
+
+  function toggleGoingOut() {
+    setGoingOut((prev) => !prev);
+  }
+
+  return (
+    <div>
+      <button onClick={toggleGoingOut}>Change mind</button>
+      {children(goingOut)}
+      {/* <h1>Am I going out tonight, {name}?? {goingOut ? "Yes!" : "Nope..."}</h1> */}
+    </div>
+  );
+}

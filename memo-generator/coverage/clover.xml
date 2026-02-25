@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771009342617" clover="3.2.0">
+  <project timestamp="1771009342617" name="All files">
+    <metrics statements="16" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="11" coveredmethods="10" elements="29" coveredelements="26" complexity="0" loc="16" ncloc="16" packages="2" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.jsx" path="/Users/mac/Desktop/Course-fullstack/new-in-react/memo-generator/src/App.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="15" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="10" coveredmethods="9"/>
+      <file name="Header.jsx" path="/Users/mac/Desktop/Course-fullstack/new-in-react/memo-generator/src/components/Header.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+      <file name="Main.jsx" path="/Users/mac/Desktop/Course-fullstack/new-in-react/memo-generator/src/components/Main.jsx">
+        <metrics statements="14" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="8"/>
+        <line num="5" count="54" type="stmt"/>
+        <line num="6" count="54" type="stmt"/>
+        <line num="11" count="54" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="44" type="stmt"/>
+        <line num="22" count="44" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="38" count="54" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
